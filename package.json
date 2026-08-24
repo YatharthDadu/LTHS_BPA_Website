@@ -1,0 +1,12 @@
+{
+  "name": "lths-bpa-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local development server for the LTHS BPA website",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

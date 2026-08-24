@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Officer Calendar | LT BPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+    <div class="container playful-layout dashboard-shell">
+        <header class="header-playful dashboard-header">
+            <a href="index.html" class="logo" aria-label="Lebanon Trail BPA home">
+                <span class="logo-star" aria-hidden="true">*</span>
+                <span class="logo-text">Lebanon Trail</span>
+            </a>
+            <nav class="nav-playful" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="competitions.html">Competitions</a>
+                <a href="officers.html">Officers</a>
+                <a href="dashboard.html" class="active" aria-current="page">Officer Calendar</a>
+            </nav>
+            <button id="sign-out" class="dashboard-sign-out" type="button">Sign out</button>
+        </header>
+
+        <main class="officer-dashboard">
+            <section class="dashboard-intro" aria-labelledby="dashboard-title">
+                <div>
+                    <span class="cal-subtitle">OFFICER WORKSPACE</span>
+                    <h1 id="dashboard-title">Chapter calendar</h1>
+                    <p>Keep meetings, events, conferences, and deadlines in one simple place.</p>
+                </div>
+                <div class="category-legend" aria-label="Calendar category legend">
+                    <span class="legend-item"><i class="legend-dot meeting-dot"></i>Meetings</span>
+                    <span class="legend-item"><i class="legend-dot event-dot"></i>Events</span>
+                    <span class="legend-item"><i class="legend-dot conference-dot"></i>Conferences</span>
+                    <span class="legend-item"><i class="legend-dot deadline-dot"></i>Deadlines</span>
+                </div>
+            </section>
+
+            <section class="dashboard-layout" aria-label="Officer calendar and event composer">
+                <section class="officer-calendar retro-thick-border" aria-labelledby="calendar-month">
+                    <div class="officer-calendar-topbar">
+                        <div>
+                            <span class="cal-subtitle">CHAPTER CALENDAR</span>
+                            <h2 id="calendar-month">Loading calendar</h2>
+                        </div>
+                        <div class="calendar-controls" aria-label="Calendar navigation">
+                            <button id="previous-month" class="retro-btn btn-icon" type="button" aria-label="Previous month">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5 7.5 12l7 7" /></svg>
+                            </button>
+                            <button id="today-button" class="retro-btn btn-text" type="button">Today</button>
+                            <button id="next-month" class="retro-btn btn-icon" type="button" aria-label="Next month">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7" /></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="officer-calendar-grid" id="calendar-grid" role="grid" aria-labelledby="calendar-month"></div>
+                </section>
+
+                <aside class="event-composer retro-thick-border" aria-labelledby="event-form-title">
+                    <div class="composer-heading">
+                        <span class="cal-subtitle">NEW CALENDAR ITEM</span>
+                        <h2 id="event-form-title">Add an event</h2>
+                        <p id="selected-date-label">Choose a date on the calendar or use the form below.</p>
+                    </div>
+                    <form id="event-form">
+                        <div class="dashboard-field">
+                            <label for="event-title">Title</label>
+                            <input id="event-title" name="title" type="text" maxlength="80" autocomplete="off" required>
+                        </div>
+                        <div class="dashboard-field">
+                            <label for="event-category">Category</label>
+                            <select id="event-category" name="category">
+                                <option value="meeting">Meeting</option>
+                                <option value="event">Event</option>
+                                <option value="conference">Conference</option>
+                                <option value="deadline">Deadline</option>
+                            </select>
+                        </div>
+                        <div class="dashboard-field">
+                            <label for="event-date">Date</label>
+                            <input id="event-date" name="date" type="date" required>
+                        </div>
+                        <label class="all-day-control" for="event-all-day">
+                            <input id="event-all-day" name="allDay" type="checkbox">
+                            <span>All day</span>
+                        </label>
+                        <div class="event-time-details">
+                            <div class="dashboard-field" id="time-field">
+                                <label for="event-time">Time <span>(optional)</span></label>
+                                <input id="event-time" name="time" type="time" step="60">
+                            </div>
+                            <div class="dashboard-field" id="duration-field">
+                                <label for="event-duration">Duration <span>(minutes)</span></label>
+                                <input id="event-duration" name="duration" type="number" min="5" max="1440" step="5" inputmode="numeric" placeholder="e.g. 60">
+                            </div>
+                        </div>
+                        <div class="dashboard-field">
+                            <label for="event-description">Description <span>(optional)</span></label>
+                            <textarea id="event-description" name="description" rows="3" maxlength="280"></textarea>
+                        </div>
+                        <button class="save-event-button" type="submit">Add to calendar</button>
+                        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+                    </form>
+                </aside>
+            </section>
+        </main>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

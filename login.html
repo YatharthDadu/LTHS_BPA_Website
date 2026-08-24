@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=6">
   <style>
     .login-container {
         display: flex;
@@ -150,7 +150,7 @@
                 <h2>Officer Portal</h2>
                 <p>Secure login for chapter officers</p>
             </div>
-            <form action="#" method="POST" id="login-form">
+            <form id="login-form" novalidate>
                 <div class="form-group">
                     <label for="username">Username or Email</label>
                     <input type="text" id="username" name="username" class="form-input" placeholder="Enter your credentials" required>
@@ -160,10 +160,12 @@
                     <input type="password" id="password" name="password" class="form-input" placeholder="••••••••" required>
                 </div>
                 <button type="submit" class="btn-login">Sign In</button>
-                <a href="#" class="forgot-password">Need help logging in?</a>
+                <p id="login-message" class="login-message" role="alert" aria-live="polite"></p>
+                <p class="testing-access"><strong>Testing access</strong><br>Username: <code>officer</code><br>Password: <code>BPA2026</code></p>
             </form>
         </div>
     </main>
   </div>
+  <script src="auth.js"></script>
 </body>
 </html>
