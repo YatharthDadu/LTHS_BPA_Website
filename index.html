@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebanon Trail BPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+    <div class="container playful-layout">
+        <!-- Header -->
+        <header class="header-playful">
+            <div class="logo">
+                <span class="logo-star">*</span>
+                <span class="logo-text">Lebanon Trail</span>
+            </div>
+                        <nav class="nav-playful">
+                <a href="index.html" class="active">Home</a>
+                <a href="competitions.html" class="">Competitions</a>
+                <a href="officers.html" class="">Officers</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <div class="icon-btn search-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="10" cy="10" r="7" />
+                        <path d="M 6 10.5 A 4.5 4.5 0 0 1 10.5 6" />
+                        <path d="M15.5 14 L20 18.5 A 1.5 1.5 0 0 1 17.88 20.62 L13.38 16.12" />
+                    </svg>
+                </div>
+                <div class="icon-btn notif-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 10 5.5 A 2 2 0 0 1 14 5.5" />
+                        <path d="M 4 18 C 6 18, 7 16, 7 14 L 7 10 A 5 5 0 0 1 17 10 L 17 14 C 17 16, 18 18, 20 18 Z" />
+                        <path d="M 9.5 18 A 2.5 2.5 0 0 0 14.5 18" />
+                        <path d="M 8.5 10 A 3.5 3.5 0 0 1 11 6.6" />
+                    </svg>
+                </div>
+                <a href="login.html" class="icon-btn profile-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 9 L 12 4 L 22 9 L 12 14 Z" />
+                        <path d="M 6 11 V 16 C 6 19, 18 19, 18 16 V 11" />
+                        <path d="M 13 9.5 L 21 9.5 V 15.5" />
+                        <circle cx="21" cy="17" r="1.5" />
+                        <path d="M 20 18.2 L 19 22.5 C 20 23.5, 22 23.5, 23 22.5 L 22 18.2" />
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Bento Grid -->
+        <main class="bento-grid">
+            
+            <!-- Top Section: Typography & Floating Elements -->
+            <div class="bento-hero">
+                <div class="hero-text-container">
+                    <h1 class="hero-title">
+                        Lebanon Trail<br>
+                        <span class="serif-italic">BPA Chapter</span>
+                    </h1>
+                    
+
+                </div>
+
+
+
+                <!-- Connecting Squiggle -->
+                <svg class="connecting-line" viewBox="0 0 1000 500" preserveAspectRatio="none">
+                    <path d="M -50,260 C 150,280 300,250 450,260 C 600,270 700,450 1100,250" fill="none" stroke="var(--secondary)" stroke-width="3" opacity="0.6"/>
+                </svg>
+            </div>
+
+            <!-- Bottom Section: The 3 Bento Cards -->
+            <div class="bento-cards-row">
+                
+                <!-- Card 1: Green -->
+                <a href="competitions.html" class="bento-card card-primary">
+                    <div class="card-meta">
+                        <span class="age-pill">All Grades</span>
+                        <div class="arrow-btn">↗</div>
+                    </div>
+                    <h3 class="card-title">Competitive<br><span class="serif-italic">Events</span></h3>
+                    <div class="abstract-shape shape-blob-gold"></div>
+                </a>
+
+                <!-- Card 2: Slate/Neutral -->
+                <a href="#" class="bento-card card-slate">
+                    <div class="card-meta">
+                        <span class="age-pill">Meetings</span>
+                    </div>
+                    <div class="card-center-profile">👩‍💼</div>
+                    <h3 class="card-title">Chapter<br><span class="serif-italic">Activities</span></h3>
+                    <div class="abstract-shape shape-squiggle-green"></div>
+                    <div class="arrow-btn bottom-right">↗</div>
+                </a>
+
+                <!-- Card 3: Light Neutral (acting as the 3rd pastel color) -->
+                <a href="officers.html" class="bento-card card-light">
+                    <div class="card-meta">
+                        <span class="age-pill">Officers</span>
+                    </div>
+                    <h3 class="card-title">Leadership<br><span class="serif-italic">Development</span></h3>
+                    <div class="abstract-shape shape-flower-slate"></div>
+                    <div class="arrow-btn bottom-right">↗</div>
+                </a>
+
+            </div>
+        </main>
+
+        <!-- Upcoming Events Section -->
+        <section class="events-section">
+            <div class="events-header">
+                <h2 class="hero-title" style="font-size: 4rem;">Upcoming Events</h2>
+                <p>Track chapter milestones, meetings, and conference dates throughout the school year.</p>
+            </div>
+
+            <div class="events-layout">
+                <!-- Left: Retro Badge Calendar -->
+                <div class="calendar-container retro-thick-border">
+                    <div class="calendar-top-bar">
+                        <div class="calendar-title">
+                            <span class="cal-subtitle">CHAPTER CALENDAR</span>
+                            <h3>July 2026</h3>
+                        </div>
+                        <div class="calendar-controls">
+                            <button class="retro-btn btn-icon">&lt;</button>
+                            <button class="retro-btn btn-text">Current Month</button>
+                            <button class="retro-btn btn-icon">&gt;</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-toolbar">
+                        <div class="search-bar retro-border">
+                            <span class="search-label">Search</span>
+                            <input type="text" placeholder="Static search field">
+                        </div>
+                        <div class="view-toggles retro-border">
+                            <button class="toggle-btn active">Month</button>
+                            <button class="toggle-btn">List</button>
+                        </div>
+                        <button class="retro-btn btn-filters">Filters</button>
+                    </div>
+
+                    <div class="calendar-grid">
+                        <!-- Days Header -->
+                        <div class="cal-header">SUN</div>
+                        <div class="cal-header">MON</div>
+                        <div class="cal-header">TUE</div>
+                        <div class="cal-header">WED</div>
+                        <div class="cal-header">THU</div>
+                        <div class="cal-header">FRI</div>
+                        <div class="cal-header">SAT</div>
+
+                        <!-- Row 1 -->
+                        <div class="cal-cell empty"><span class="date">28</span></div>
+                        <div class="cal-cell empty"><span class="date">29</span></div>
+                        <div class="cal-cell empty"><span class="date">30</span></div>
+                        <div class="cal-cell"><span class="date">1</span></div>
+                        <div class="cal-cell"><span class="date">2</span></div>
+                        <div class="cal-cell"><span class="date">3</span></div>
+                        <div class="cal-cell"><span class="date">4</span></div>
+
+                        <!-- Row 2 -->
+                        <div class="cal-cell"><span class="date">5</span></div>
+                        <div class="cal-cell"><span class="date">6</span></div>
+                        <div class="cal-cell"><span class="date">7</span></div>
+                        <div class="cal-cell"><span class="date">8</span></div>
+                        <div class="cal-cell"><span class="date">9</span></div>
+                        <div class="cal-cell"><span class="date">10</span></div>
+                        <div class="cal-cell"><span class="date">11</span></div>
+
+                        <!-- Row 3 -->
+                        <div class="cal-cell"><span class="date">12</span></div>
+                        <div class="cal-cell"><span class="date">13</span></div>
+                        <div class="cal-cell"><span class="date">14</span></div>
+                        <div class="cal-cell"><span class="date">15</span></div>
+                        <div class="cal-cell"><span class="date">16</span></div>
+                        <div class="cal-cell"><span class="date">17</span></div>
+                        <div class="cal-cell"><span class="date">18</span></div>
+
+                        <!-- Row 4 -->
+                        <div class="cal-cell"><span class="date">19</span></div>
+                        <div class="cal-cell"><span class="date">20</span></div>
+                        <div class="cal-cell"><span class="date">21</span></div>
+                        <div class="cal-cell"><span class="date">22</span></div>
+                        <div class="cal-cell"><span class="date">23</span></div>
+                        <div class="cal-cell"><span class="date">24</span></div>
+                        <div class="cal-cell"><span class="date">25</span></div>
+
+                        <!-- Row 5 -->
+                        <div class="cal-cell bottom-border-none"><span class="date">26</span></div>
+                        <div class="cal-cell bottom-border-none"><span class="date">27</span></div>
+                        <div class="cal-cell bottom-border-none"><span class="date">28</span></div>
+                        <div class="cal-cell bottom-border-none"><span class="date">29</span></div>
+                        <div class="cal-cell bottom-border-none"><span class="date">30</span></div>
+                        <div class="cal-cell bottom-border-none"><span class="date">31</span></div>
+                        <div class="cal-cell empty bottom-border-none"><span class="date">1</span></div>
+                    </div>
+                </div>
+
+                <!-- Right: Ticket Style Side Panel -->
+                <div class="ticket-pass-container">
+                    <div class="ticket-stub">
+                        <span class="ticket-sideways-text">YOUR PASS</span>
+                        <div class="ticket-zig-zag"></div>
+                        <span class="ticket-serial">№000000001</span>
+                    </div>
+                    <div class="ticket-main">
+                        <div class="molecule-bg">
+                            <svg width="100%" height="100%">
+                                <circle cx="30" cy="50" r="15" fill="var(--tertiary)"/>
+                                <circle cx="80" cy="120" r="15" fill="var(--tertiary)"/>
+                                <line x1="30" y1="50" x2="80" y2="120" stroke="var(--tertiary)" stroke-width="20" stroke-linecap="round"/>
+                                
+                                <circle cx="40" cy="220" r="15" fill="none" stroke="var(--tertiary)" stroke-width="3"/>
+                                <circle cx="80" cy="280" r="15" fill="none" stroke="var(--tertiary)" stroke-width="3"/>
+                                <path d="M 40 235 Q 60 250 80 265" fill="none" stroke="var(--tertiary)" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="ticket-content">
+                            <div class="event-tbd-badge retro-thick-border">
+                                <span class="tbd-label">TBD</span>
+                                <strong class="tbd-dash">--</strong>
+                            </div>
+                            <div class="event-tbd-text">
+                                <h4>No upcoming events</h4>
+                                <p>Check back after the chapter calendar is updated.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
