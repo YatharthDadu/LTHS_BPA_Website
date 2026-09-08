@@ -133,14 +133,6 @@ window.bpaEvents = {
         ],
         generatorLink: "#"
     },
-    "105": {
-        id: "105",
-        title: "COLLEGE ACCOUNTING",
-        description: "This event evaluates a contestant's understanding of key financial concepts and practices. Participants will assess entry-level accounting principles for postsecondary contestants. Competitors will demonstrate their ability to apply these principles to real-world scenarios, showcasing their analytical and quantitative skills.",
-        wsapLink: "#",
-        quizzes: [],
-        generatorLink: "#"
-    },
     "110": {
         id: "110",
         title: "ADVANCED ACCOUNTING",

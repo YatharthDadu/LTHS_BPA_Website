@@ -991,6 +991,29 @@ a {
 }
 
 /* Ticket Grid */
+.competitions-container {
+    padding: 12px 20px 56px;
+    background-color: var(--white);
+}
+
+.category-section[hidden] {
+    display: none;
+}
+
+.category-title {
+    margin: 0 0 22px;
+    color: var(--tertiary);
+    font-family: var(--font-sans);
+    font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+    font-weight: 900;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
 .ticket-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -1002,8 +1025,8 @@ a {
 /* Event Ticket Pass */
 .event-ticket {
     display: flex;
-    min-height: 220px;
-    height: auto;
+    min-height: 270px;
+    height: 270px;
     filter: drop-shadow(8px 8px 0px var(--tertiary));
     transition: transform 0.2s;
     text-decoration: none;
@@ -1015,7 +1038,7 @@ a {
 }
 
 .event-ticket .ticket-stub {
-    width: 80px;
+    width: 70px;
     background-color: var(--primary);
     border: 4px solid var(--tertiary);
     border-right: none;
@@ -1046,7 +1069,7 @@ a {
     border: 4px solid var(--tertiary);
     border-left: none;
     border-radius: 0 16px 16px 0;
-    padding: 24px;
+    padding: 26px 22px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -1082,7 +1105,7 @@ a {
 .event-ticket h3 {
     font-family: var(--font-sans);
     font-weight: 900;
-    font-size: 1.35rem;
+    font-size: clamp(1.1rem, 1.65vw, 1.45rem);
     color: inherit;
     margin: 0 0 10px 0;
     line-height: 1.1;
@@ -1157,6 +1180,7 @@ a {
     .badge-title { font-size: 2.5rem; }
     .badge-wrapper { border-radius: 40px; padding: 20px; }
     .badge-inner { border-radius: 30px; padding: 20px; }
+    .events-grid { grid-template-columns: 1fr; gap: 22px; }
     .event-ticket { height: auto; min-height: 220px; flex-direction: column; }
     .event-ticket .ticket-stub { width: 100%; height: 60px; border-right: 4px solid var(--tertiary); border-bottom: none; border-radius: 16px 16px 0 0; }
     .event-ticket .ticket-zig-zag { right: 0; left: 0; bottom: -10px; top: auto; height: 20px; width: 100%; background-image: linear-gradient(45deg, transparent 50%, var(--tertiary) 50%), linear-gradient(-45deg, var(--tertiary) 50%, transparent 50%); background-size: 20px 20px; background-repeat: repeat-x; }
@@ -1410,6 +1434,10 @@ a {
     z-index: 2;
     margin-bottom: -15px;
     border: 3px solid var(--tertiary);
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+    .events-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* =========================================================================
@@ -1882,4 +1910,115 @@ a {
         grid-template-columns: 1fr;
         gap: 0;
     }
+}
+
+/* Shared calendar event details */
+.member-calendar-events {
+    display: grid;
+    gap: 4px;
+    margin-top: 7px;
+}
+
+.member-calendar-event {
+    overflow: hidden;
+    width: 100%;
+    border: 0;
+    border-left: 4px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.25;
+    padding: 4px 5px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.member-calendar-event span {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 800;
+}
+
+.member-calendar-event:hover,
+.member-calendar-event:focus-visible {
+    filter: brightness(0.92);
+    outline: 3px solid var(--secondary);
+    outline-offset: 2px;
+}
+
+.calendar-event-popover {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 100;
+    width: min(360px, calc(100vw - 32px));
+    max-height: min(20vh, 190px);
+    overflow: auto;
+    border: 2px solid var(--tertiary);
+    border-left: 6px solid var(--primary);
+    border-radius: 9px;
+    background: var(--neutral);
+    box-shadow: 6px 6px 0 var(--tertiary);
+    color: var(--tertiary);
+    padding: 14px 36px 14px 16px;
+    animation: calendar-popover-in 0.16s ease-out both;
+}
+
+.calendar-event-popover--meeting { border-left-color: #275D8C; }
+.calendar-event-popover--conference { border-left-color: #7047A8; }
+.calendar-event-popover--deadline { border-left-color: #B54708; }
+
+.calendar-popover-close {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    width: 26px;
+    height: 26px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--tertiary);
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.calendar-popover-category {
+    color: var(--primary);
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.calendar-event-popover h2 {
+    color: var(--primary);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.15;
+    margin: 3px 0 4px;
+}
+
+.calendar-popover-meta,
+.calendar-popover-description {
+    font-size: 0.76rem;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.calendar-popover-meta { font-weight: 800; }
+.calendar-popover-description { margin-top: 6px; }
+
+@keyframes calendar-popover-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 760px) {
+    .calendar-event-popover { right: 16px; bottom: 16px; max-height: 25vh; }
+    .member-calendar-event { border-left-width: 3px; font-size: 0.58rem; padding: 3px; }
 }

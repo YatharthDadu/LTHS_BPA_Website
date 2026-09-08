@@ -18,8 +18,9 @@
     const timeField = document.getElementById('time-field');
     const durationField = document.getElementById('duration-field');
     const formMessage = document.getElementById('form-message');
+    const api = window.lthsCalendarApi;
 
-    if (!sessionStorage.getItem(SESSION_KEY)) {
+    if (!api?.enabled && !sessionStorage.getItem(SESSION_KEY)) {
         window.location.replace('login.html');
         return;
     }
@@ -66,6 +67,12 @@
 
     function saveEvents() {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(events));
+    }
+
+    async function refreshRemoteEvents() {
+        if (!api?.enabled) return;
+        events = await api.events();
+        renderCalendar();
     }
 
     function formatLongDate(dateString) {
@@ -121,10 +128,10 @@
 
             const eventMarkup = cellEvents.map(function (event) {
                 const time = event.allDay || !event.time ? '' : `<span>${formatTime(event)}</span>`;
-                return `<button type="button" class="calendar-event calendar-event--${event.category}" data-event-date="${event.date}" aria-label="${categoryNames[event.category]}: ${event.title}, ${formatTime(event)}">${time}${event.title}</button>`;
+                return `<button type="button" class="calendar-event calendar-event--${event.category}" data-event-id="${event.id}" aria-label="${categoryNames[event.category]}: ${event.title}, ${formatTime(event)}">${time}${event.title}</button>`;
             }).join('');
 
-            return `<div class="${classes.join(' ')}" role="gridcell" aria-selected="${isSelected}">
+            return `<div class="${classes.join(' ')}" role="gridcell" aria-selected="${isSelected}" data-date="${cellDateString}">
                 <button type="button" class="calendar-date-button" data-date="${cellDateString}" aria-label="${formatLongDate(cellDateString)}">${cellDate.getDate()}</button>
                 <div class="calendar-events">${eventMarkup}</div>
             </div>`;
@@ -167,16 +174,21 @@
         selectDate(toInputDate(today));
     });
 
-    document.getElementById('sign-out').addEventListener('click', function () {
+    document.getElementById('sign-out').addEventListener('click', async function () {
+        if (api?.enabled) await api.logout();
         sessionStorage.removeItem(SESSION_KEY);
         window.location.assign('login.html');
     });
 
     calendarGrid.addEventListener('click', function (event) {
-        const dateButton = event.target.closest('[data-date]');
-        const eventButton = event.target.closest('[data-event-date]');
-        if (dateButton) selectDate(dateButton.dataset.date);
-        if (eventButton) selectDate(eventButton.dataset.eventDate);
+        const eventButton = event.target.closest('[data-event-id]');
+        if (eventButton) {
+            const selectedEvent = events.find(function (item) { return item.id === eventButton.dataset.eventId; });
+            if (selectedEvent) window.showCalendarEventPopover?.(selectedEvent);
+            return;
+        }
+        const dayCell = event.target.closest('.officer-calendar-day[data-date]');
+        if (dayCell) selectDate(dayCell.dataset.date);
     });
 
     allDayInput.addEventListener('change', updateTimeField);
@@ -185,7 +197,7 @@
         if (dateInput.value) selectDate(dateInput.value);
     });
 
-    eventForm.addEventListener('submit', function (event) {
+    eventForm.addEventListener('submit', async function (event) {
         event.preventDefault();
         const formData = new FormData(eventForm);
         const title = formData.get('title').trim();
@@ -207,8 +219,18 @@
             description: formData.get('description').trim()
         };
 
-        events.push(newEvent);
-        saveEvents();
+        try {
+            if (api?.enabled) {
+                await api.createEvent(newEvent);
+                events = await api.events();
+            } else {
+                events.push(newEvent);
+                saveEvents();
+            }
+        } catch (error) {
+            formMessage.textContent = error.message;
+            return;
+        }
         eventForm.reset();
         allDayInput.checked = false;
         updateTimeField();
@@ -222,4 +244,10 @@
 
     updateTimeField();
     renderCalendar();
+    if (api?.enabled) {
+        api.session().then(function (session) {
+            if (!session.authenticated) window.location.replace('login.html');
+            else refreshRemoteEvents().catch(function () { formMessage.textContent = 'The shared calendar could not be loaded.'; });
+        }).catch(function () { window.location.replace('login.html'); });
+    }
 })();
