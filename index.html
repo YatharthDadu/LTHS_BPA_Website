@@ -54,24 +54,27 @@
         <!-- Main Bento Grid -->
         <main class="bento-grid">
             
-            <!-- Top Section: Typography & Floating Elements -->
-            <div class="bento-hero">
-                <div class="hero-text-container">
-                    <h1 class="hero-title">
-                        Lebanon Trail<br>
-                        <span class="serif-italic">BPA Chapter</span>
-                    </h1>
-                    
-
+            <!-- Top Section: Custom Expansive Hero -->
+            <section class="expansive-hero" style="padding: 100px 0; position: relative; margin: 0 -50vw 60px -50vw; left: 50%; right: 50%; width: 100vw;">
+                
+                <!-- Abstract Floating Shapes -->
+                <div style="position: absolute; top: -10px; right: 8%; width: 350px; height: 350px; background-color: #F6D673; border-radius: 50%; opacity: 0.9; pointer-events: none;"></div>
+                <div style="position: absolute; bottom: -80px; right: 35%; width: 250px; height: 250px; background-color: var(--primary); border-radius: 40px; transform: rotate(15deg); opacity: 0.9; pointer-events: none;"></div>
+                <div style="position: absolute; top: 60px; right: 50%; width: 100px; height: 100px; background-color: #7CD0E9; border-radius: 50%; opacity: 0.9; pointer-events: none;"></div>
+                
+                <div style="max-width: 1400px; margin: 0 auto; padding: 0 40px; position: relative; z-index: 2;">
+                    <div style="max-width: 900px;">
+                        <div style="font-family: var(--font-sans); font-weight: 800; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 20px; color: var(--primary); font-size: 1rem;">Welcome to the</div>
+                        <h1 style="font-family: var(--font-sans); font-size: clamp(3.5rem, 7vw, 7.5rem); font-weight: 900; line-height: 1.05; margin-bottom: 24px; text-transform: uppercase; color: var(--tertiary);">
+                            Lebanon Trail<br>
+                            <span style="color: var(--primary); display: block; margin-top: 8px;">BPA Chapter</span>
+                        </h1>
+                        <p style="font-size: 1.25rem; font-family: var(--font-body); font-weight: 500; color: var(--tertiary); max-width: 600px; line-height: 1.6;">
+                            Join us in developing leadership, exploring business careers, and competing at the state and national level.
+                        </p>
+                    </div>
                 </div>
-
-
-
-                <!-- Connecting Squiggle -->
-                <svg class="connecting-line" viewBox="0 0 1000 500" preserveAspectRatio="none">
-                    <path d="M -50,260 C 150,280 300,250 450,260 C 600,270 700,450 1100,250" fill="none" stroke="var(--secondary)" stroke-width="3" opacity="0.6"/>
-                </svg>
-            </div>
+            </section>
 
             <!-- Bottom Section: The 3 Bento Cards -->
             <div class="bento-cards-row">
@@ -91,7 +94,6 @@
                     <div class="card-meta">
                         <span class="age-pill">Meetings</span>
                     </div>
-                    <div class="card-center-profile">👩‍💼</div>
                     <h3 class="card-title">Chapter<br><span class="serif-italic">Activities</span></h3>
                     <div class="abstract-shape shape-squiggle-green"></div>
                     <div class="arrow-btn bottom-right">↗</div>
