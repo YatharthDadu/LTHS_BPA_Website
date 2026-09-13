@@ -1,0 +1,12 @@
+Jose, Montana, Ford, F150, ABC-123, 65.00, WHJFHJFO483897
+Isaac, Newton, Chevy, Silverado, DFR-345, 89.01, WH24223442897
+Albert, Einstein, Honda, Accord, DWP-098, 11.00,  454FGGF2897
+Carl, Gauss, Toyota, Prius, QQQ-123, 456.55, JGHJF23442897
+Alan, Turing, Volvo, XC90, HJH-345, 45.33, GHGDHD3442897
+Rene, Descartes, BMW, X1, RWW-345, 99.01, EQRET23442897
+Ada, Lovelace, Mercedes, G-Class, 567-WWW, 345.67, DFGDFDFF3442897
+Sofya, Kovalevskaya, Lexus, GX350, W4R-R5R, 34.56, 454FDGHSFDKH897
+Benjamin, Banneker, Lexus, RX350, PPR-15R, 62.46, WEWE2344GSFRG
+Fern, Hunt, Honda, Pilot, FGW-011, 31.00, MGFNH2344TETR7 
+Mark, Dean, Toyota, 4Runner, WWW-123, 152.55, 222EREG2897
+Katherine, Johnson, Mercedes, GLS-Class, 756-QQQ, 3445.67, 5HBH5B23442897

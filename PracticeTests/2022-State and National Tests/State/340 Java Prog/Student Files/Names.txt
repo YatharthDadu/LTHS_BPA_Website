@@ -1,0 +1,12 @@
+Pedro, Smith, Toyota, Camry, DFG-456, 78.40, BPAFHJFO483897
+Mary, Taylor, Toyota, Corolla, DFGF-098, 39.31, BPA4223442897
+Richard, Thomas, Honda, Civic, FFF-234, 14.11,  BPAFGGF2897
+Daniel, Hernandez, Toyota, Prius, WWW-111, 444.44, BPAJF23442897
+Emily, Patel, Nissan, Sentra, GGG-222, 555.55, BPADHD3442897
+Deborah, Miller, Nissan, Altima, RRR-333, 654.51, BPAET23442897
+Donna, Garcia, Jeep, Grand Cherokee, 444-DDD, 345.77, BPADFDFF3442897
+George, Walker, Ford, Escape, 665-HHH, 333.26, BPAFDGHSFDKH897
+Heather, Young, Kia, Soul,LLL-789, 34.78, BPAE2344GSFRG
+Jose, Clark, Hyundai, Elantra, SSS-111, 23.22, BPANH2344TETR7 
+Beverly, Sanchez, Ford, Ranger, CCC-222, 222.22, BPAEREG2897
+Juan, Adams, GMC, Canyon, HHH-444, 3333.22, BPAH5B23442897

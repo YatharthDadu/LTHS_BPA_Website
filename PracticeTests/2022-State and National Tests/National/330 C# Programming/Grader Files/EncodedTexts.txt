@@ -1,0 +1,1 @@
+omso 1; omso 2; omso 3;

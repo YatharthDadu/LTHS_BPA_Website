@@ -1,0 +1,1 @@
+dogecoin.com/; https://github.com/dogecoin/dogecoin; 20943279561; BEP20

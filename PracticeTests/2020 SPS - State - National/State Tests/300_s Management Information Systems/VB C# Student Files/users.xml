@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Name>Bruce</Name>
+    <Password>qwe</Password>
+    <Pdfs />
+    <Money>250</Money>
+  </User>
+  <User>
+    <Name>Joseph</Name>
+    <Password>asdf</Password>
+    <Pdfs />
+    <Money>150</Money>
+  </User>
+  <User>
+    <Name>George</Name>
+    <Password>asdf</Password>
+    <Pdfs />
+    <Money>150</Money>
+  </User>
+</ArrayOfUser>

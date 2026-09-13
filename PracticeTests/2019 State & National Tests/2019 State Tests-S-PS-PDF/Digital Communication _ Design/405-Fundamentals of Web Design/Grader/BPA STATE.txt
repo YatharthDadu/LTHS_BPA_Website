@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>Fundamentals of Web Design - Contestant ##</title>
+
+<link href="For Graders/form.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #AC9C80;
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+}
+</style>
+<meta charset="iso-8859-1">
+</head>
+
+<body>
+
+
+    <img src="For Students/BPA_logo.png" width="223" height="108">
+
+
+  <p><span class="Heading">Conference Objectives:</span></p>
+<p>From May 1-5, we invite you to  the 2019 Business Professionals of America National Leadership Conference. Join  thousands of students from across the country who will gather to compete,  showcase their business skills and develop their leadership  in Anaheim, California. The National Leadership Conference is the culmination of the BPA year  filled with hard work and dedication put into competitions, Torch Awards,  leadership development, service and more!</p>
+<p>The 2019 National Leadership Conference will offer four  exciting days of competitions, leadership development, workshops, National  Officer Elections, fun tours and much more. Whether it&rsquo;s by participating  in&nbsp;competitions, running for national office, attending the National  Leadership Academy, being an NLC Intern, receiving an award or participating in  elections, there are numerous&nbsp;ways to qualify for the 2019 National  Leadership Conference and experience Anaheim.</p>
+<hr>
+<h1 class="level">The following are objectives of BPA's National Leadership  Conference:</strong></h1>
+  <ul>
+    <li>Participate in educational seminars and workshops.</li>
+    <li>Hear nationally prominent speakers.</li>
+    <li>Elect national student officers.</li>
+    <li>Participate in the Workplace Skills Assessment Program.</li>
+    <li>Participate in general assemblies designed to conduct the  business of Business Professionals of America.</li>
+    <li>Transact business of the association.</li>
+    <li>Participate in leadership programs.</li>
+</ul>
+  <hr>
+  <h1 class="level">Qualify:</h1>
+  <ul>
+    <li>In order to attend the National Leadership Conference, a  participant must be a registered BPA member in good standing and be approved  for attendance.</li>
+    <li>All students must attend the National Leadership Conference  with an approved chaperone.</li>
+    <li>Additionally, a member must qualify for the conference in at  least one of the following ways:</li>
+    <li>By finishing high enough in a State WSAP Competitive Event.  Contact your State Advisor for information on regional and state conferences  where WSAP contests take place.</li>
+    <li>Be a local, regional, or state officer.</li>
+    <li>Represent your state as a voting delegate for your division.</li>
+    <li>Be involved in a National Officer campaign either as a  candidate or otherwise actively involved.</li>
+    <li>Earn an Ambassador Torch Award or BPA Cares Award.</li>
+    <li>Participate in the National Leadership Academy and National  Intern Program.</li>
+    <li>Be involved in the NLC in a manner which is purposely  planned by the BPA member and local advisor.</li>
+</ul>
+  <hr>
+  <p>As you can see, attending NLC is not limited to simply  winning your competitive event. Don&rsquo;t miss your chance to   be a part of this year&rsquo;s National Leadership Conference in Anaheim, California!</p>
+  <ul>
+    <li><a href="http://www.bpa.org/nlc/postcon">Competition</a></li>
+    <li><a href="http://www.bpa.org/nlc/generalinfo">Conference Resources</a></li>
+    <li><a href="http://www.bpa.org/nlc/highlights">Highlights</a></li>
+    <li><a href="http://www.bpa.org/nlc/regandmore">Registration &amp; Travel</a></li>
+    <li><a href="http://www.bpa.org/nlc/lead">Leadership</a></li>
+    <li><a href="http://www.bpa.org/nlc/partner">NLC Partner Opportunities</a></li>
+    <li><a href="http://www.bpa.org/nlc/pastfuture">NLC History</a></li>
+</ul>
+  <hr>
+  <p>Copyright &#169; 2019 Business Professionals of America&nbsp;</p>
+</div>
+
+</body>
+
+</html>

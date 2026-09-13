@@ -180,11 +180,70 @@
         window.location.assign('login.html');
     });
 
+    let editingEventId = null;
+    const saveEventButton = document.getElementById('save-event-button');
+    const deleteEventButton = document.getElementById('delete-event-button');
+    const cancelEditButton = document.getElementById('cancel-edit-button');
+
+    function editEvent(selectedEvent) {
+        editingEventId = selectedEvent.id;
+        document.getElementById('event-title').value = selectedEvent.title;
+        document.getElementById('event-category').value = selectedEvent.category;
+        dateInput.value = selectedEvent.date;
+        allDayInput.checked = selectedEvent.allDay;
+        timeInput.value = selectedEvent.time || '';
+        durationInput.value = selectedEvent.duration || '';
+        document.getElementById('event-description').value = selectedEvent.description || '';
+        updateTimeField();
+
+        saveEventButton.textContent = 'Update event';
+        deleteEventButton.style.display = 'block';
+        cancelEditButton.style.display = 'block';
+        formMessage.textContent = 'Editing event...';
+    }
+
+    function cancelEdit() {
+        editingEventId = null;
+        eventForm.reset();
+        allDayInput.checked = false;
+        updateTimeField();
+        saveEventButton.textContent = 'Add to calendar';
+        deleteEventButton.style.display = 'none';
+        cancelEditButton.style.display = 'none';
+        formMessage.textContent = '';
+    }
+
+    cancelEditButton.addEventListener('click', cancelEdit);
+
+    deleteEventButton.addEventListener('click', async function () {
+        if (!editingEventId) return;
+        if (!confirm('Are you sure you want to delete this event?')) return;
+
+        try {
+            if (api?.enabled) {
+                await api.deleteEvent(editingEventId);
+                events = await api.events();
+            } else {
+                events = events.filter(e => e.id !== editingEventId);
+                saveEvents();
+            }
+        } catch (error) {
+            formMessage.textContent = error.message;
+            return;
+        }
+
+        formMessage.textContent = 'Event deleted.';
+        cancelEdit();
+        renderCalendar();
+    });
+
     calendarGrid.addEventListener('click', function (event) {
         const eventButton = event.target.closest('[data-event-id]');
         if (eventButton) {
             const selectedEvent = events.find(function (item) { return item.id === eventButton.dataset.eventId; });
-            if (selectedEvent) window.showCalendarEventPopover?.(selectedEvent);
+            if (selectedEvent) {
+                editEvent(selectedEvent);
+            }
             return;
         }
         const dayCell = event.target.closest('.officer-calendar-day[data-date]');
@@ -209,7 +268,7 @@
         }
 
         const newEvent = {
-            id: `event-${Date.now()}`,
+            id: editingEventId || `event-${Date.now()}`,
             title: title,
             date: date,
             time: allDayInput.checked ? '' : formData.get('time'),
@@ -221,23 +280,32 @@
 
         try {
             if (api?.enabled) {
-                await api.createEvent(newEvent);
+                if (editingEventId) {
+                    await api.updateEvent(editingEventId, newEvent);
+                } else {
+                    await api.createEvent(newEvent);
+                }
                 events = await api.events();
             } else {
-                events.push(newEvent);
+                if (editingEventId) {
+                    const index = events.findIndex(e => e.id === editingEventId);
+                    if (index !== -1) events[index] = newEvent;
+                } else {
+                    events.push(newEvent);
+                }
                 saveEvents();
             }
         } catch (error) {
             formMessage.textContent = error.message;
             return;
         }
-        eventForm.reset();
-        allDayInput.checked = false;
-        updateTimeField();
+        
+        const actionText = editingEventId ? 'updated' : 'added';
+        cancelEdit();
         selectedDate = date;
         const selected = new Date(`${date}T12:00:00`);
         visibleDate = new Date(selected.getFullYear(), selected.getMonth(), 1);
-        formMessage.textContent = `${categoryNames[newEvent.category]} added for ${formatLongDate(date)}.`;
+        formMessage.textContent = `${categoryNames[newEvent.category]} ${actionText} for ${formatLongDate(date)}.`;
         renderCalendar();
         document.getElementById('event-title').focus();
     });

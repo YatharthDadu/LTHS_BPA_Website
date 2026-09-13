@@ -1,0 +1,4 @@
+N; Ethicorns; BNB; 6.334; 5.34; 4.34; 5.67
+N; ChainSports; ETH; 0.2; 1.20; 2.2; 0.3
+N; MetaLands; MATIC; 1.645; 0.345; 3.2123; 1.4
+N; League of Heroes; MATIC; 0.45; 4.2; 2.12; 2.98

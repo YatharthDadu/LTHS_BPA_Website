@@ -1,0 +1,34 @@
+Aberdeen	Brown	235241
+Belle Fourche	Butte	179453
+Birmingham	Lincoln	298177
+Boardson	Bon Homme	323188
+Box Elder	Pennington	266875
+Cedarburg	Butte	179453
+Chamberlain	Brule	278201
+Dakota Dunes	Union	339197
+Dayton	Union	339197
+Fall City	Charles Mix	188622
+Fountainville	Davison	506274
+Garretson	Minnehaha	388497
+Germantown	Lawrence	197560
+Gettysburg	Potter	249762
+Grafton	Minnehaha	388497
+Harrisburg	Lincoln	298177
+Lead	Lawrence	197560
+Lennox	Lincoln	298177
+Mason	Clay	227418
+Milbank	Grant	207661
+Mitchell	Davison	506274
+Pine Ridge	Oglala Lakota	201748
+Porcupine	Oglala Lakota	201748
+Rapid City	Pennington	266875
+Rapid Valley	Pennington	266875
+Sioux Falls	Minnehaha	388497
+Spearfish	Lawrence	197560
+Springfield	Bon Homme	323188
+Sturgis	Meade	368841
+Summerset	Lincoln	298177
+Vermillion	Clay	227418
+Wagner	Charles Mix	188622
+Watertown	Davison	506274
+Yankton	Yankton	256076

@@ -1,0 +1,61 @@
+Mon Nov 23 18:10:17 CST 2020
+DUPLICATES 
+CLONED Name: Jose  Montana
+CLONED Car Information:  Ford  F150  ABC-123
+CLONED Payment: $65.00  WHJFHJFO483897
+
+DUPLICATES 
+CLONED Name: Isaac  Newton
+CLONED Car Information:  Chevy  Silverado  DFR-345
+CLONED Payment: $89.01  WH24223442897
+
+DUPLICATES 
+CLONED Name: Albert  Einstein
+CLONED Car Information:  Honda  Accord  DWP-098
+CLONED Payment: $11.00   454FGGF2897
+
+DUPLICATES 
+CLONED Name: Carl  Gauss
+CLONED Car Information:  Toyota  Prius  QQQ-123
+CLONED Payment: $456.55  JGHJF23442897
+
+DUPLICATES 
+CLONED Name: Alan  Turing
+CLONED Car Information:  Volvo  XC90  HJH-345
+CLONED Payment: $45.33  GHGDHD3442897
+
+DUPLICATES 
+CLONED Name: Rene  Descartes
+CLONED Car Information:  BMW  X1  RWW-345
+CLONED Payment: $99.01  EQRET23442897
+
+DUPLICATES 
+CLONED Name: Ada  Lovelace
+CLONED Car Information:  Mercedes  G-Class  567-WWW
+CLONED Payment: $345.67  DFGDFDFF3442897
+
+DUPLICATES 
+CLONED Name: Sofya  Kovalevskaya
+CLONED Car Information:  Lexus  GX350  W4R-R5R
+CLONED Payment: $34.56  454FDGHSFDKH897
+
+DUPLICATES 
+CLONED Name: Benjamin  Banneker
+CLONED Car Information:  Lexus  RX350  PPR-15R
+CLONED Payment: $62.46  WEWE2344GSFRG
+
+DUPLICATES 
+CLONED Name: Fern  Hunt
+CLONED Car Information:  Honda  Pilot  FGW-011
+CLONED Payment: $31.00  MGFNH2344TETR7 
+
+DUPLICATES 
+CLONED Name: Mark  Dean
+CLONED Car Information:  Toyota  4Runner  WWW-123
+CLONED Payment: $152.55  222EREG2897
+
+DUPLICATES 
+CLONED Name: Katherine  Johnson
+CLONED Car Information:  Mercedes  GLS-Class  756-QQQ
+CLONED Payment: $3,445.67  5HBH5B23442897
+

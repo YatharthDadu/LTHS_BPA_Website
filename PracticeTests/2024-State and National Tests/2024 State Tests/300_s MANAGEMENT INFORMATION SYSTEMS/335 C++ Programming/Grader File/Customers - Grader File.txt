@@ -1,0 +1,10 @@
+Doe,John,123 Maple St,Springfield,IL,62704
+Smith,Jane,456 Oak Ave,Rivertown,MO,62704
+Johnson,Alice,789 Pine Blvd,Greenwood,TX,77002
+Williams,Robert,101 Elm Rd,Hillside,CA,77002
+Brown,Emily,202 Birch Ln,Lakeview,FL,32803
+Davis,Michael,303 Cedar St,Sunnyvale,WA,32803
+Miller,Sarah,404 Spruce Dr,Clifftown,NJ,32803
+Wilson,David,505 Aspen Ct,Stonebridge,VA,77002
+Moore,Linda,606 Walnut Way,Pebblebrook,GA,62704
+Taylor,Paul,707 Redwood Rd,Cedarville,OH,62704

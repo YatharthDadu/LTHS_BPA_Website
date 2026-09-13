@@ -1,0 +1,22 @@
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.AssemblyReference.cache
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.SuggestedBindingRedirects.cache
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.Form1.resources
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.Properties.Resources.resources
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.GenerateResource.cache
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.CoreCompileInputs.cache
+C:\Users\georg\VSProjects\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.exe.config
+C:\Users\georg\VSProjects\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.exe
+C:\Users\georg\VSProjects\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.pdb
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.exe
+C:\Users\georg\VSProjects\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.pdb
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.exe.config
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.exe
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\bin\Debug\ThirdLevelConversions.pdb
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.AssemblyReference.cache
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.SuggestedBindingRedirects.cache
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.Form1.resources
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.Properties.Resources.resources
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.GenerateResource.cache
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.csproj.CoreCompileInputs.cache
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.exe
+C:\Users\pattonr\OneDrive - Frisco ISD\C#Subs 2022 BPA\New george\ThirdLevelConversions\obj\Debug\ThirdLevelConversions.pdb

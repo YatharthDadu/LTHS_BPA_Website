@@ -1,0 +1,21 @@
+1000,"Simple Wood",40
+90,"Small Stone",74
+1780,"Salmon Fillet",172
+80,"Salt and Pepper",13
+3000,"Baked Salmon",0
+145000,"Electric Motor",3
+40000,"Control Board",9
+275000,"Battery System",2
+900000,"Generator",0
+10000,"Basic Shed",1
+400000,"GPU",1
+80000,"Motherboard",8
+30000,"SSD",4
+50000,"Monitor",2
+800000,"Personal Computer",0
+190,"Milk - Gallon",4
+200,"Sugar - Pound",2
+140,"Dozen Eggs",9
+700,"Ice Cream",0
+10,"Nails",972
+30000,"Bookshelf",7

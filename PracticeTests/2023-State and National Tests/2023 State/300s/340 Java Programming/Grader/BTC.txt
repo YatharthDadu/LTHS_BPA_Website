@@ -1,0 +1,1 @@
+bitcoin.org; github.com/bitcoin; 896690280785; PoW

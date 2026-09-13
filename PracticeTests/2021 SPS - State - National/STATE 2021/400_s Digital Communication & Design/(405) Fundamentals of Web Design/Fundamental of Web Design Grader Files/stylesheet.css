@@ -1,0 +1,26 @@
+body {
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+color: #00051A;
+background-color: #9DEFFF;
+}
+.heading {
+font-family: "Times New Roman", Times, serif;
+font-size: 32px;
+font-weight: bold;
+color: #AE28F2;
+}
+.title {
+font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+color: #ED6DDF; 
+}
+.image {
+text-align: left;
+width: 50px;
+height: 5px;
+}
+.square {
+ list-style-type: square;
+ margin-left: -2em;
+}

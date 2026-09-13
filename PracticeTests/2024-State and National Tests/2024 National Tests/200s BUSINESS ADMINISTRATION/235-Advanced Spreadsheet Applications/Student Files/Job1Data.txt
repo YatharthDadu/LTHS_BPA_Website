@@ -1,0 +1,70 @@
+Date	Listing Price	City	County	Sales Agent
+10/01/2023	227775	Mitchell	Davison	Crenshaw
+10/04/2023	450000	Lennox	Lincoln	Ogea
+10/07/2023	104900	Wagner	Charles Mix	Vermeer
+10/08/2023	245000	Sioux Falls	Minnehaha	Boone
+10/09/2023	229900	Sioux Falls	Minnehaha	Ford
+10/10/2023	395000	Pine Ridge	Oglala Lakota	Robinson
+10/10/2023	159500	Garretson	Minnehaha	Alvarez
+10/11/2023	269000	Lead	Lawrence	Wu
+10/14/2023	799900	Summerset	Lincoln	Ford
+10/14/2023	385000	Rapid City	Pennington	Nguyen
+10/15/2023	346000	Lennox	Lincoln	Locklear
+10/15/2023	299000	Aberdeen	Brown	Williams
+10/18/2023	439000	Porcupine	Oglala Lakota	Nguyen
+10/19/2023	179000	Milbank	Grant	Boone
+10/19/2023	215000	Yankton	Yankton	Crenshaw
+10/20/2023	330000	Sioux Falls	Minnehaha	Grady
+10/21/2023	239900	Aberdeen	Brown	Boone
+10/23/2023	118000	Mitchell	Davison	Crenshaw
+10/26/2023	635000	Rapid City	Pennington	Boone
+10/28/2023	467000	Chamberlain	Brule	Grady
+10/28/2023	287500	Mitchell	Davison	Ogea
+10/29/2023	297000	Sioux Falls	Minnehaha	Crenshaw
+10/29/2023	144000	Rapid City	Pennington	Ogea
+11/02/2023	550000	Sioux Falls	Minnehaha	Robinson
+11/04/2023	350000	Spearfish	Lawrence	Boone
+11/06/2023	752000	Belle Fourche	Butte	Vermeer
+11/09/2023	299900	Box Elder	Pennington	Alvarez
+11/11/2023	129400	Aberdeen	Brown	Robinson
+11/12/2023	105000	Vermillion	Clay	Grady
+11/12/2023	432000	Grafton	Minnehaha	Robinson
+11/12/2023	599000	Rapid City	Pennington	Wu
+11/15/2023	265000	Rapid Valley	Pennington	Locklear
+11/16/2023	357000	Yankton	Yankton	Boone
+11/18/2023	364900	Sturgis	Meade	Robinson
+11/18/2023	298000	Watertown	Davison	Patel
+11/19/2023	173000	Germantown	Lawrence	Locklear
+11/21/2023	590000	Mitchell	Davison	Alvarez
+11/22/2023	190000	Harrisburg	Lincoln	Alvarez
+11/24/2023	269000	Wagner	Charles Mix	Alvarez
+11/25/2023	379900	Belle Fourche	Butte	Alvarez
+11/25/2023	440000	Sioux Falls	Minnehaha	Grady
+11/30/2023	526900	Cedarburg	Butte	Crenshaw
+11/30/2023	46900	Fall City	Charles Mix	Vermeer
+12/01/2023	314000	Fountainville	Davison	Wu
+12/01/2023	149900	Dakota Dunes	Union	Wu
+12/03/2023	230000	Milbank	Grant	Ford
+12/03/2023	578000	Birmingham	Lincoln	Ford
+12/06/2023	63900	Pine Ridge	Oglala Lakota	Locklear
+12/07/2023	207000	Dayton	Union	Patel
+12/08/2023	261000	Spearfish	Lawrence	Locklear
+12/09/2023	74900	Box Elder	Pennington	Robinson
+12/09/2023	498000	Aberdeen	Brown	Alvarez
+12/11/2023	265000	Lead	Lawrence	Boone
+12/12/2023	289900	Summerset	Lincoln	Wu
+12/15/2023	112800	Milbank	Grant	Alvarez
+12/17/2023	420000	Aberdeen	Brown	Patel
+12/17/2023	89900	Mason	Clay	Nguyen
+12/19/2023	280000	Mitchell	Davison	Alvarez
+12/20/2023	69900	Boardson	Bon Homme	Grady
+12/21/2023	141900	Lead	Lawrence	Nguyen
+12/22/2023	245000	Rapid City	Pennington	Grady
+12/23/2023	275000	Rapid City	Pennington	Smith
+12/26/2023	387000	Chamberlain	Brule	Ford
+12/27/2023	249500	Mason	Clay	Boone
+12/27/2023	284000	Pine Ridge	Oglala Lakota	Alvarez
+12/28/2023	235000	Springfield	Bon Homme	Boone
+12/30/2023	378400	Summerset	Lincoln	Crenshaw
+12/31/2023	635000	Gettysburg	Potter	Nguyen
+

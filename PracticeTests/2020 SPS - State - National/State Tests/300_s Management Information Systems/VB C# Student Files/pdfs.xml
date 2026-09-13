@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pdf>
+    <Id>1</Id>
+    <File>test1.pdf</File>
+    <Cost>15</Cost>
+  </Pdf>
+  <Pdf>
+    <Id>2</Id>
+    <File>test2.pdf</File>
+    <Cost>35</Cost>
+  </Pdf>
+  <Pdf>
+    <Id>3</Id>
+    <File>test3.pdf</File>
+    <Cost>10</Cost>
+  </Pdf>
+  <Pdf>
+    <Id>4</Id>
+    <File>test4.pdf</File>
+    <Cost>75</Cost>
+  </Pdf>
+  <Pdf>
+    <Id>5</Id>
+    <File>test5.pdf</File>
+    <Cost>45</Cost>
+  </Pdf>
+</ArrayOfPdf>

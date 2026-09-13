@@ -7,16 +7,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <div class="container playful-layout">
     <header class="header-playful">
       <div class="logo"><span class="logo-star">*</span><span class="logo-text">Lebanon Trail</span></div>
       <nav class="nav-playful">
-        <a href="index.html">Home</a><a href="competitions.html" class="active">Competitions</a><a href="officers.html">Officers</a><a href="#">Contact</a>
+        <a href="index.html">Home</a><a href="competitions.html" class="active">Competitions</a><a href="officers.html">Officers</a>
       </nav>
-      <div class="header-actions"><a href="login.html" class="icon-btn profile-icon" aria-label="Officer login">♙</a></div>
+      <div class="header-actions"><a href="login.html" class="icon-btn profile-icon" aria-label="Officer login">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M 2 9 L 12 4 L 22 9 L 12 14 Z" />
+                        <path d="M 6 11 V 16 C 6 19, 18 19, 18 16 V 11" />
+                        <path d="M 13 9.5 L 21 9.5 V 15.5" />
+                        <circle cx="21" cy="17" r="1.5" />
+                        <path d="M 20 18.2 L 19 22.5 C 20 23.5, 22 23.5, 23 22.5 L 22 18.2" />
+                    </svg>
+                </a></div>
     </header>
     <main class="page-main">
       <!-- Expansive Hero -->
@@ -29,7 +37,7 @@
                       <span style="color: var(--primary); display: block; margin-top: 8px;">Events</span>
                   </h1>
                   <p style="font-size: 1.25rem; font-family: var(--font-body); font-weight: 500; color: var(--tertiary); max-width: 600px; line-height: 1.6;">
-                      Explore our comprehensive catalog of WSAP events, review guidelines, and generate practice quizzes.
+                      Explore our comprehensive catalog of WSAP events, review guidelines, and access practice tests from prior years.
                   </p>
               </div>
           </div>
@@ -47,13 +55,12 @@
       <div class="modal-body-grid">
         <div class="modal-card card-desc"><h3>Event Description</h3><p class="modal-desc-text"></p></div>
         <div class="modal-card card-wsap"><h3>WSAP Guidelines</h3><p>Open the official 2026-27 guidebook pages for event rules, scoring, and requirements.</p><a href="#" class="retro-btn btn-wsap" target="_blank" rel="noopener">View PDF Guidelines</a></div>
-        <div class="modal-card card-generator"><div class="generator-content"><h3>Practice Quiz Generator</h3><p>Create focused practice prompts for this event.</p><a href="#" class="retro-btn btn-generator">Launch Generator ✨</a></div></div>
-        <div class="modal-card card-quizzes"><h3>Static Quizzes</h3><ul class="quiz-list"></ul></div>
+        <div class="modal-card card-quizzes"><h3>Practice Tests</h3><p class="card-quizzes-intro" style="font-size:0.85rem;color:#666;margin-bottom:8px;">Past State &amp; National tests from prior years. Click any PDF to open.</p><ul class="quiz-list"></ul></div>
       </div>
     </div>
   </div>
   <script src="events-db.js?v=2026-2027"></script>
   <script src="competition-catalog.js?v=2026-2027"></script>
-  <script src="modal-logic.js?v=2"></script>
+  <script src="modal-logic.js?v=3"></script>
 </body>
 </html>

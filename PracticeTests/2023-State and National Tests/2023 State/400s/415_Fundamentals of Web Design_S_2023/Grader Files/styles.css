@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 3px 5px black;
+}
+
+h1 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.whitespace {
+  width: 100%;
+  height:200px;
+}
+
+table {
+  border: 1px solid black;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: #CACACA;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+#middle {
+  background-color: #f7efab;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#return {
+  text-align: center;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 601px) {
+  div#centered {
+    font-size: 80px;
+  }
+}
+  
+@media only screen and (max-width: 600px) {
+  div#centered {
+    font-size: 30px;
+  }
+}

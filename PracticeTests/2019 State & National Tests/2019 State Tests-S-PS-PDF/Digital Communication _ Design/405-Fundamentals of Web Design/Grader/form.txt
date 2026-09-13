@@ -1,0 +1,25 @@
+
+<style type="text/css">
+
+body {
+	background-color: #AC9C80;
+	font-family: "Times New Roman", Times, serif;
+	color: #00051A;
+	font-size: 12px;
+}
+.Heading {
+	color: #132555;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.level {
+	color: #132555;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+</style>
+
+

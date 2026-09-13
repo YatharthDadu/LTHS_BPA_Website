@@ -1,0 +1,1 @@
+p,CHZZ,Cheesetastic,5.50,50,a,LSGC,LasagnaClassic,9.22,10,P,MTZZ,Meatzilla,11.00,60,A,VGSG,Vegiesagna,14.00,10,A,ZITI,BakedZiti,12.22,15,P,VNDL,VeganDelite,9.00,20,stOp

@@ -1,0 +1,17 @@
+DEF
+Comp1
+100
+5
+GHI
+Comp2
+10.10
+10
+JKL
+Comp3
+5.00
+5
+MNO
+Comp4
+2.22
+2
+STOP

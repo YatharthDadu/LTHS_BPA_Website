@@ -40,6 +40,52 @@
             .format(new Date(`2000-01-01T${event.time}:00`));
     }
 
+    function updateUpcomingTicket() {
+        const ticketContent = document.querySelector('.ticket-content');
+        if (!ticketContent) return;
+
+        const todayString = toInputDate(today);
+        const upcoming = events
+            .filter(e => e.date >= todayString)
+            .sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+
+        if (upcoming.length === 0) {
+            ticketContent.innerHTML = `
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div class="event-tbd-badge retro-thick-border">
+                        <span class="tbd-label">TBD</span>
+                        <strong class="tbd-dash">--</strong>
+                    </div>
+                    <div class="event-tbd-text">
+                        <h4>No upcoming events</h4>
+                        <p>Check back after the chapter calendar is updated.</p>
+                    </div>
+                </div>
+            `;
+            return;
+        }
+
+        ticketContent.innerHTML = upcoming.slice(0, 4).map((event, index) => {
+            const [year, month, day] = event.date.split('-');
+            const dateObj = new Date(year, month - 1, day);
+            const monthLabel = new Intl.DateTimeFormat('en-US', { month: 'short' }).format(dateObj).toUpperCase();
+            
+            return `
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div class="event-tbd-badge retro-thick-border" style="background-color: var(--secondary); min-width: 60px;">
+                        <span class="tbd-label">${monthLabel}</span>
+                        <strong class="tbd-dash" style="font-size: 1.8rem; line-height: 1;">${day}</strong>
+                    </div>
+                    <div class="event-tbd-text">
+                        <span style="font-size: 0.75rem; font-weight: 800; color: var(--tertiary); opacity: 0.7; text-transform: uppercase; letter-spacing: 1px;">${index === 0 ? 'Next Event' : 'Upcoming'}</span>
+                        <h4 style="margin: 4px 0 8px;">${event.title}</h4>
+                        <p style="margin: 0;">${formatTime(event) || 'All Day'}</p>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
     function render() {
         const year = visibleDate.getFullYear();
         const month = visibleDate.getMonth();
@@ -65,6 +111,8 @@
             const event = events.find((item) => item.id === button.dataset.eventId);
             if (event) window.showCalendarEventPopover?.(event);
         }));
+
+        updateUpcomingTicket();
     }
 
     window.addEventListener('storage', (event) => { if (event.key === STORAGE_KEY) render(); });

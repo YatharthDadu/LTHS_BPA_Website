@@ -23,6 +23,8 @@
         async login(username, password) { const result = await request('/api/login', { method: 'POST', body: JSON.stringify({ username, password }) }); sessionStorage.setItem(tokenKey, result.token); return result; },
         async logout() { sessionStorage.removeItem(tokenKey); return request('/api/logout', { method: 'POST' }); },
         async createEvent(event) { return request('/api/events', { method: 'POST', body: JSON.stringify(event) }); },
+        async updateEvent(id, event) { return request(`/api/events/${id}`, { method: 'PUT', body: JSON.stringify(event) }); },
+        async deleteEvent(id) { return request(`/api/events/${id}`, { method: 'DELETE' }); },
         localEvents() {
             try { const events = JSON.parse(localStorage.getItem(localKey)); return Array.isArray(events) ? events : null; } catch (_) { return null; }
         },

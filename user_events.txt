@@ -1,0 +1,64 @@
+(100) Fundamental Accounting
+(105) College Accounting
+(110) Advanced Accounting
+(115) Advanced College Accounting
+(125) Payroll Accounting
+(135) Managerial Accounting
+(145) Banking & Finance
+(150) Financial Analyst Team
+(155) Economic Trends Research Individual
+(160) Economic Research Team
+(165) Personal Financial Management
+(190) Financial Math & Analysis
+(200) Integrated Office Applications
+(205) Fundamental Spreadsheet Applications
+(210) Advanced Spreadsheet Applications
+(215) Database Applications
+(220) Legal Office Procedures
+(225) Administrative Support Application Team
+(230) Administrative Trends Research Individual
+(235) Business Law and Ethics
+(240) Entrepreneurship
+(245) Small Business Management Team
+(250) Parliamentary Procedure Team
+(290) Management and Entrepreneurship Concepts
+(291) Parliamentary Procedure Concepts
+(292) Project Management Concepts
+(293) Meeting and Event Planning Concepts
+(300) Computer Network Technology
+(305) Device Configuration and Troubleshooting
+(310) Server Administration Using Microsoft®
+(315) Network Administration Using Cisco®
+(320) Computer Security
+(325) Network Design Team  
+(330) C# Programming  
+(335) C++ Programming  
+(340) Java Programming  
+(345) SQL Database Fundamentals  
+(350) Linux Operating System Fundamentals
+(355) Python Programming
+(360) HTML and CSS Coding
+(365) Website Design and Development Team
+(390) Digital Technology Concepts
+(391) Computer Programming Concepts
+(400) Fundamental Desktop Publishing
+(405) Advanced Desktop Publishing
+(410) Graphic Design Promotion
+(420) Digital Media Production
+(425) 3D Computer Modeling
+(430) Video Production Team
+(440) 3D Computer Animation Team
+(445) Broadcast News Production Team
+(450) Podcast Production Team
+(455) User Experience Design Team
+(460) Visual Design Team
+(490) Arts, Entertainment, and Design Concepts
+500) Global Marketing Strategy Team
+(505) Sports Media Marketing
+(510) Industry Pitch Team
+(590) Marketing and Sales Concepts (Open)
+(600) Medical Coding
+(605) Health Insurance and Medical Billing
+(610) Health Administration Procedures
+(615) Health Research Presentation
+(690) Healthcare and Human Services Concepts

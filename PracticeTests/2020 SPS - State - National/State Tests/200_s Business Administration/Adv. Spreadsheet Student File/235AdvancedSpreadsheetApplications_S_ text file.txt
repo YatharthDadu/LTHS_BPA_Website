@@ -1,0 +1,20 @@
+2050	Other	EDI SmartBoard L500-1	10/5/2018	10/6/2018	Anthony Liddell
+2051	Other	EDI SmartBoard L500-1	10/1/2018	10/5/2018	Sofie Ragnar
+3000	Other	Saris Lumina Digital Camera	5/12/2018	5/15/2018	Shannon Nguyen
+3005	Other	Saris Zoom Z-60 Digital Camera	7/27/2018	8/6/2018	Sela Shepard
+3070	Other	Omega PixL Digital Camcorder	10/6/2018		Min Seung
+3800	Other	U-Go Saris DigiCam Printer II	8/4/2018	8/5/2018	Hank Sorenson
+3900	Other	U-Go Saris Label Maker	6/13/2018	6/20/2018	Clint Gosse
+4800	Other	7N Deluxe Camera Travel Bag	7/27/2018	8/6/2018	Sela Shepard
+4900	Other	7N Light Rolling Laptop Case	10/4/2018		Jay Peralta
+4905	Other	7N Heavy Rolling Laptop Case	10/4/2018		Nick Ortiz
+5020	TV	32" Paragon 440 Plasma TV	8/11/2018	8/13/2018	Marta Lao
+5022	TV	32" Paragon 440 Plasma TV	7/17/2018	7/17/2018	Carl Langer
+5023	TV	50" Paragon 490L LCD TV	10/1/2018	10/1/2018	Margaret Lisbon
+6100	Projector	Omega VisX 1.0	9/28/2018	10/1/2018	Win Armitage
+6101	Projector	Omega VisX 1.0	9/26/2018	9/27/2018	Michael Earley
+6102	Projector	Omega VisX 1.0	8/22/2018	8/23/2018	Jamila Kyle
+6200	Projector	Saris Lux T-80	9/1/2018	9/4/2018	Jolie Chaturvedi
+6301	Projector	Saris Lux T-81 Lite	9/10/2018		Marques Herndon
+6302	Projector	Saris Lux T-81 Lite	9/8/2018	9/15/2018	Dean Sorenson
+

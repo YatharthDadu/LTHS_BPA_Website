@@ -641,7 +641,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 24px 0;
     border-right: 4px dashed var(--tertiary);
     position: relative;
@@ -699,8 +699,8 @@ a {
     position: relative;
     z-index: 2;
     display: flex;
+    flex-direction: column;
     gap: 20px;
-    align-items: flex-start;
 }
 
 .event-tbd-badge {
@@ -1386,13 +1386,16 @@ a {
 
 .card-quizzes {
     background-color: var(--white);
+    grid-column: 1 / -1;
 }
 .quiz-list {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 12px;
+    max-height: 280px;
+    overflow-y: auto;
 }
 .quiz-list a {
     display: block;
@@ -1404,6 +1407,8 @@ a {
     color: var(--primary);
     text-decoration: none;
     transition: all 0.2s;
+    font-size: 0.85rem;
+    word-break: break-word;
 }
 .quiz-list a:hover {
     background-color: var(--secondary);

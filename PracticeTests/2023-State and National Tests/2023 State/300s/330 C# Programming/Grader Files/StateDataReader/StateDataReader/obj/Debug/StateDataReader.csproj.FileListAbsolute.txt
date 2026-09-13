@@ -1,0 +1,22 @@
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.exe.config
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.exe
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.pdb
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.AssemblyReference.cache
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.SuggestedBindingRedirects.cache
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.Form1.resources
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.Properties.Resources.resources
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.GenerateResource.cache
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.CoreCompileInputs.cache
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.exe
+C:\Users\ryanp\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.pdb
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.exe.config
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.exe
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\bin\Debug\StateDataReader.pdb
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.AssemblyReference.cache
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.Form1.resources
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.Properties.Resources.resources
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.GenerateResource.cache
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.exe
+C:\Users\Ryan Patton\OneDrive\FISD\BPA\CSharpBPA2022\State\StateDataReader\StateDataReader\obj\Debug\StateDataReader.pdb

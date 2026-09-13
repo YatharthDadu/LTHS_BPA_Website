@@ -1,0 +1,7 @@
+﻿  maze_solver.cpp
+E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\maze_solver\maze_solver.cpp(26,21): warning C4018: '<': signed/unsigned mismatch
+E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\maze_solver\maze_solver.cpp(28,22): warning C4018: '<': signed/unsigned mismatch
+E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\maze_solver\maze_solver.cpp(56,10): warning C4018: '<': signed/unsigned mismatch
+E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\maze_solver\maze_solver.cpp(60,10): warning C4018: '<': signed/unsigned mismatch
+E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\maze_solver\maze_solver.cpp(94,23): warning C4018: '<': signed/unsigned mismatch
+  maze_solver.vcxproj -> E:\BPA\bpa_2022_tests\nationals_cpp\maze_solver\Debug\maze_solver.exe

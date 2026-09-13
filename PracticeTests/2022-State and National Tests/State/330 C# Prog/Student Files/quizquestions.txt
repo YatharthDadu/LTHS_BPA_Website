@@ -1,0 +1,6 @@
+What is the capital of Germany?,Berlin,Munich,Brandenburg,Cologne,1
+What is the capital of China?,Hangzhou,Yichang,Beijing,Nanning,3
+What is the capital of Portugal?,Porto,Vila Nova de Gaia,Funchal,Lisbon,4
+What is the capital of New Zealand?,Wellington,Auckland,Christchurch,Melbourne,1
+What is the capital of Brazil?,Federal District,Brazilia,Rio de Janeiro,Belo Horizonte,2
+What is the capital of Russia?,Saint Petersburg,Moscow,Novosibirsk,Kazan,2

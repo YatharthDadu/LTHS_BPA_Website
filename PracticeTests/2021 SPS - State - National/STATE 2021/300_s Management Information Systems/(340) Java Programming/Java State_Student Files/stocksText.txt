@@ -1,0 +1,13 @@
+ABC
+Google
+110.23
+25
+F
+Ford
+23.45
+100
+IBM
+International Business Machines
+15
+5
+STOP

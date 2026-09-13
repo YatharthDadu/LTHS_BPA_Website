@@ -1,0 +1,1 @@
+p,GLD,Gold,2002.23,5,b,FER,Iron,29.17,1000,P,SLV,Silver,800.11,18,B,COB,Cobalt,11.22,107,B,TNG,Tungsten,100.11,77,P,PLT,Platinum,3000.33,2,stOp
